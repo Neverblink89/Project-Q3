@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Bootstrap cheatsheet</title>
+  </head>
+  <body>
+      <!---Topography--->
+    <div class="container">
+      <h1 class="card-header">Hello, world! <small>Secondary text</small></h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><p><mark>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</mark> Duis aute irure <del>dolor in reprehenderit </del>in <u>voluptate velit esse cillum</u> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <hr>
+
+    <!-- ALIGNMENT -->
+    <p class="text-left lowercase">Left aligned text.</p>
+    <p class="text-center text-uppercase">Centered aligned text.</p>
+    <p class="text-right text-capitalize">right aligned text.</p>
+    <p class="text-justify">justified text.</p>
+    <p class="text-nowrap">No wrap text.</p>
+
+      <!-- Quick Floats -->
+      <div class="float-right">Div floated to right</div>
+      <div class="float-left">Div floated to left</div>
+
+      <div class="clearfix"></div>
+
+      <hr>
+
+      <!-- BlockQuote -->
+      <blockquote class="blockquote">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <footer class="blockquote-footer">Quote by <cite title="John Doe">John Doe</cite></footer>
+      </blockquote>
+
+      <hr>
+
+
+        <!-- LISTS -->
+        <ul class="list-unstyled">
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+          <li>Item Four</li>
+        </ul>
+
+        <ul class="list-inline">
+          <li class="list-inline-item">Item One</li>
+          <li class="list-inline-item">Item Two</li>
+          <li class="list-inline-item">Item Three</li>
+          <li class="list-inline-item">Item Four</li>
+        </ul>
+
+          <!-- CODE -->
+          <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+          <br>
+          Change directory with <kbd>cd</kbd>
+          <br>
+          To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+
+          <hr>
+
+          <!-- CONTEXTUAL COLORS -->
+
+          <p class="text-primary">.text-primary</p>
+          <p class="text-secondary">.text-secondary</p>
+          <p class="text-success">.text-success</p>
+          <p class="text-danger">.text-danger</p>
+          <p class="text-warning">.text-warning</p>
+          <p class="text-info">.text-info</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-dark">.text-dark</p>
+          <p class="text-muted">.text-muted</p>
+          <p class="text-white bg-dark">.text-white</p>
+
+          <!-- CONTEXTUAL BG COLORS -->
+
+          <p class="bg-primary">.text-primary</p>
+          <p class="bg-secondary">.text-secondary</p>
+          <p class="bg-success">.text-success</p>
+          <p class="bg-danger">.text-danger</p>
+          <p class="bg-warning">.text-warning</p>
+          <p class="bg-info">.text-info</p>
+          <p class="bg-light bg-dark">.text-light</p>
+          <p class="bg-dark">.text-dark</p>
+          <p class="bg-muted">.text-muted</p>
+          <p class="bg-white bg-dark">.text-white</p>
+
+
+
+
+
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <!--Buttons-->
+          <button type="button"class="btn btn-outline-secondary">Default</button>
+          <a href="#"class="btn btn-outline-secondary" role="button">Link</a>
+          <input type="submit" class="btn btn-outline-secondary" value="Submit">
+          <br>
+
+
+        <!--- CONTEXTUAL BUTTONS --->
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+        <br>
+
+
+        <!--- BUTTON SIZES -->
+        <button type="button" class="btn btn-primary btn-lg">Default</button>
+        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+
+
+        </div>
+
+        <br>
+
+      <div class="container">
+        <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+        <br>
+
+      <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">Example multiple select</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example text area</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </form>
+
+      <br>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Example file input</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </form>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value=""   id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+            Default checkbox
+            </label>
+            </div>
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+              <label class="form-check-label" for="defaultCheck2">
+            Disabled checkbox
+            </label>
+          </div>
+
+          <br>
+
+          <form class="form-inline">
+            <div class="form-group mb-2">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputPassword2" class="sr-only">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+          </form>
+
+          <br>
+
+
+          <div class="form-check">
+       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+       <label class="form-check-label" for="exampleRadios1">
+         Default radio
+       </label>
+      </div>
+      <div class="form-check">
+       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+       <label class="form-check-label" for="exampleRadios2">
+         Second default radio
+       </label>
+      </div>
+      <div class="form-check disabled">
+       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+       <label class="form-check-label" for="exampleRadios3">
+         Disabled radio
+       </label>
+      </div>
+
+      <br>
+
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+        <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+      </div>
+
+
+
+      <br>
+      <!--- Auto Sizing --->
+
+
+
+      <form>
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Name</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+              <label class="form-check-label" for="autoSizingCheck">
+                Remember me
+              </label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          </div>
+        </div>
+      </form>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
